@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Counter</title>
+    </head>
+    <body>
+        <h1>Counter</h1>
+        <p>{{session.count}} times</p>
+        <a href="/add_2"><button>Add Two</button></a>
+        <a href="/destroy_session"><button>Reset</button></a>
+        <p>You have visited this page {{session.visits}} number of times.</p>
+        <br><br>
+        <form class="" action="/process" method="post">
+            <input type="number" name="number" value=""><br>
+            <input type="submit" name="" value="Submit">
+        </form>
+    </body>
+</html>
